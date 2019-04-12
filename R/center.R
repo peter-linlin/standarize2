@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-#' a <- c(5, 0, 5, 1, 2, 3, 0, 2, 2, 9)
+#' a <- c(5, 0, 5, 1, 2, 3, 0, 2, 2, 10)
 #' center(a)
 center <- function(x){
   x - mean(x)
